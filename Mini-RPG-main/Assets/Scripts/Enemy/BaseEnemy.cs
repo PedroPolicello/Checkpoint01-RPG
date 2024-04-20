@@ -22,7 +22,7 @@ public abstract class BaseEnemy : MonoBehaviour
         detector = GetComponent<Detector>();
         collider = GetComponent<Collider>();
         health = GetComponent<Health>();
-        //Método de uma linha só (Lambda)
+        //MÃ©todo de uma linha sÃ³ (Lambda)
         health.OnHurt += () => animator.SetTrigger("hurt");
         health.OnDie += HandleDeath;
     }
@@ -39,6 +39,7 @@ public abstract class BaseEnemy : MonoBehaviour
         animator.SetTrigger("die");
         collider.enabled = false;
         StartCoroutine(DestroyEnemyInSeconds(2));
+        XPHandler.instance.AddXP(10);
     }
 
     private IEnumerator DestroyEnemyInSeconds(int time)
