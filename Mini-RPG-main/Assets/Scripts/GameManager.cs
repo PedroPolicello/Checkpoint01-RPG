@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         if(Instance != null) Destroy(this.gameObject);
         
         Instance = this;
