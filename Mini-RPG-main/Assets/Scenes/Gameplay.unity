@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44664752, g: 0.4964931, b: 0.5748605, a: 1}
+  m_IndirectSpecularColor: {r: 0.44664782, g: 0.49649352, b: 0.57486135, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3911,7 +3911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.025417328, a: 1}
+  m_Color: {r: 0.06839624, g: 0.5, b: 0.07855167, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10589,10 +10589,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 685794095}
-  musicVolume: 0.5
   sfxSource: {fileID: 685794094}
-  hitSoundVolume: 0.6
-  damageSoundVolume: 0.4
+  backgroundMusic: {fileID: 0}
+  musicVolume: 0.5
+  attackSFX: {fileID: 0}
+  attackSFXVolume: 0
+  damageSFX: {fileID: 0}
+  damageSFXVolume: 0
 --- !u!1001 &686676071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12206,7 +12209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2151183545744369893, guid: 5f3e7dfd85390614aadf894e75b8a249, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.14505166
+      value: 0.14505164
       objectReference: {fileID: 0}
     - target: {fileID: 2151183545744369893, guid: 5f3e7dfd85390614aadf894e75b8a249, type: 3}
       propertyPath: m_LocalRotation.y
@@ -12214,7 +12217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2151183545744369893, guid: 5f3e7dfd85390614aadf894e75b8a249, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.06795857
+      value: 0.06795856
       objectReference: {fileID: 0}
     - target: {fileID: 2331817213817677487, guid: 5f3e7dfd85390614aadf894e75b8a249, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19112,8 +19115,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: XP
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8eef891cb07ab2c43b29935e6fc7421c, type: 2}
+  m_sharedMaterial: {fileID: 6177065733353669064, guid: 8eef891cb07ab2c43b29935e6fc7421c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19137,7 +19140,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
+  m_fontSize: 39.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -20271,8 +20274,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8eef891cb07ab2c43b29935e6fc7421c, type: 2}
+  m_sharedMaterial: {fileID: 6177065733353669064, guid: 8eef891cb07ab2c43b29935e6fc7421c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20296,7 +20299,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
+  m_fontSize: 39.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -29922,7 +29925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.3962264, g: 0.15065363, b: 0.03551085, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
