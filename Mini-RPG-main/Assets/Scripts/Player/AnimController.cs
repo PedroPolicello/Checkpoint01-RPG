@@ -50,11 +50,13 @@ public class AnimController : MonoBehaviour
 
     private void PlayHurtAnim()
     {
+        AudioManager.instance.OnDamageSound();
         animator.SetTrigger("hurt");
     }
 
     private void PlayDieAnim()
     {
+        AudioManager.instance.OnDamageSound();
         animator.SetTrigger("die");
     }
 }

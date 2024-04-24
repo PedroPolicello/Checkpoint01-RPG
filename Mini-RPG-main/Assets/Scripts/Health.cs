@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
 
     private void CheckHealth()
     {
+        UIHandler.instance.UpdateLifeUi(100, health);
         if(health <= 0 && isDead == false)
         {
             isDead = true;

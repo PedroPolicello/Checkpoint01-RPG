@@ -111,6 +111,7 @@ public class PlayerController : MonoBehaviour
 
     private void Attack()
     {
+        AudioManager.instance.OnAttackSound();
         print("GIVING DAMAGE");
         Collider[] enemiesColliders = detector.GetCollidersInDetectAreaSphere();
         print(enemiesColliders.Length);

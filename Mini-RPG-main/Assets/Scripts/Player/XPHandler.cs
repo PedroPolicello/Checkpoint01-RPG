@@ -39,6 +39,6 @@ public class XPHandler : MonoBehaviour
             print($"You leveled up! New XP necessary: " + xpToLevelUp);
         }
         
-        UIHandler.instance.UpdateUI(level, currentXp, xpToLevelUp);
+        UIHandler.instance.UpdateXpUi(level, currentXp, xpToLevelUp);
     }
 }

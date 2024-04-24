@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
     
-    [Header("RELEVA ISSO AQUI")]
+    [Header("Audio Source")]
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
     
