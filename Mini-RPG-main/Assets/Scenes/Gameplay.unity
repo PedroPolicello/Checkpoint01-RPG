@@ -10590,12 +10590,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 685794095}
   sfxSource: {fileID: 685794094}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: c126cbcf342a61746935eff0eb8e3f9d, type: 3}
   musicVolume: 0.5
-  attackSFX: {fileID: 0}
-  attackSFXVolume: 0
-  damageSFX: {fileID: 0}
-  damageSFXVolume: 0
+  attackSFX: {fileID: 8300000, guid: 1d9f3090879e8bf43aa198e6857943f6, type: 3}
+  attackSFXVolume: 1
+  damageSFX: {fileID: 8300000, guid: be2b8837a45a4624c9a3025b35e613fc, type: 3}
+  damageSFXVolume: 1
 --- !u!1001 &686676071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12445,11 +12445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4979392090372800917, guid: 5f3e7dfd85390614aadf894e75b8a249, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.4199465
+      value: -0.41994646
       objectReference: {fileID: 0}
     - target: {fileID: 4979392090372800917, guid: 5f3e7dfd85390614aadf894e75b8a249, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.060329948
+      value: 0.060329936
       objectReference: {fileID: 0}
     - target: {fileID: 5243114390398941083, guid: 5f3e7dfd85390614aadf894e75b8a249, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24641,7 +24641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666371577}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.12876901, y: -0.41994652, z: 0.060329948, w: 0.8963391}
+  m_LocalRotation: {x: 0.12876901, y: -0.4199465, z: 0.060329948, w: 0.8963391}
   m_LocalPosition: {x: 2.7650986, y: 3.010646, z: 11.179969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
